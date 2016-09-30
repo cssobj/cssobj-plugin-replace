@@ -1,0 +1,11 @@
+language: node_js
+
+node_js:
+  - '6'
+
+env:
+  - CSSOBJ_GENCSS='../node_modules/cssobj-plugin-gencss/dist/cssobj-plugin-gencss.cjs.js'
+
+script:
+  - npm install -g istanbul mocha rollup
+  - npm run test
