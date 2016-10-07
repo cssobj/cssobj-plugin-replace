@@ -130,6 +130,7 @@ zoom: 1;
   it('should use function as newVal', function() {
     var ret = setup(
       {
+        div:{float:'left'},
         p:{color:1, font:2}
       },
       {
@@ -140,11 +141,16 @@ zoom: 1;
       }
     )
 
-    expect(ret.css).equal(`p {
+    expect(ret.css).equal(
+`div {
+float: left;
+}
+p {
 color: 1;
 zoom: 1;
 font: 2;
 }
 `)
   })
+
 })

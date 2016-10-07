@@ -10,7 +10,7 @@
     "pretest": "rollup -c",
     "test": "istanbul cover _mocha",
     "build": "rollup -c && uglifyjs dist/cssobj-plugin-replace.iife.js -cm -o dist/cssobj-plugin-replace.min.js",
-    "make": "npm run build && gulp bump"
+    "make": "gulp bump && npm run build"
   },
   "repository": {
     "type": "git",
