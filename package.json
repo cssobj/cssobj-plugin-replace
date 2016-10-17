@@ -2,7 +2,8 @@
   "name": "cssobj-plugin-replace",
   "version": "1.0.0",
   "description": "Replace cssobj object key/value pair with new value(Object, Array, Function etc.)",
-  "main": "src/cssobj-plugin-replace.js",
+  "main": "dist/cssobj-plugin-replace.cjs.js",
+  "jsnext:main": "dist/cssobj-plugin-replace.es.js",
   "directories": {
     "test": "test"
   },
