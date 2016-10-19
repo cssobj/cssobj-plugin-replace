@@ -1,6 +1,6 @@
 # cssobj-plugin-replace
 
-[![Build Status](https://travis-ci.org/cssobj/cssobj-plugin-replace.svg?branch=master)](https://travis-ci.org/cssobj/cssobj-plugin-replace)
+[![Join the chat at https://gitter.im/css-in-js/cssobj](https://badges.gitter.im/css-in-js/cssobj.svg)](https://gitter.im/css-in-js/cssobj) [![Build Status](https://travis-ci.org/cssobj/cssobj-plugin-replace.svg?branch=master)](https://travis-ci.org/cssobj/cssobj-plugin-replace)
 
 [cssobj](https://github.com/cssobj/cssobj) plugin to replace object key/value pair with new value (Object, Array, Function etc.)
 
